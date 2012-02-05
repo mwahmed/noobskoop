@@ -1,0 +1,51 @@
+<%= form_for(@ece) do |f| %>
+  <% if @ece.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@ece.errors.count, "error") %> prohibited this ece from being saved:</h2>
+
+      <ul>
+      <% @ece.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+
+  <div class="field">
+    <%= f.label :course_code %><br />
+    <%= f.text_field :course_code %>
+  </div>
+
+  <div class="field">
+    <%= f.label :Area %><br />
+    <%= f.text_field :Area %>
+  </div>
+  <div class="field">
+    <%= f.label :Prerequisites %><br />
+    <%= f.text_field :Prerequisites %>
+  </div>
+  <div class="field">
+    <%= f.label :Lecturehours %><br />
+    <%= f.text_field :Lecturehours %>
+  </div>
+  <div class="field">
+    <%= f.label :Labhours %><br />
+    <%= f.text_field :Labhours %>
+  </div>
+  <div class="field">
+    <%= f.label :Tutorialhours %><br />
+    <%= f.text_field :Tutorialhours %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

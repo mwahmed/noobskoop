@@ -1,0 +1,61 @@
+<p id="notice"><%= notice %></p>
+<%= link_to "Ask Question!", href="/d_threads/new", :class=>"question_button round" %></br></br>
+<h1><strong><%= @t.title %>  </strong></h1>
+<hr></hr>
+</br>
+<h3>	<%= @t.question %>   </h3>
+
+<h4> Tags: 
+<% @tg.each do |tg| %>
+	<%= link_to tg.name, tg %>
+<%end %>	
+</h4>
+      <h1>
+	  <% logo = image_tag(gravatar_for @uss, :alt => "Sample App", :class => "round") %> 
+        <%= gravatar_for @uss %>
+	  <%= link_to logo, @uss %></h1>
+	<h4> <strong><%=@uss.name%></strong></h4>
+
+
+<% if signed_in? %>
+	<h3> 
+		<%= link_to 'Like', "/like_d_thread/#{current_user.id}/#{@t.id}/like" %> 
+		<%= link_to 'Dislike', "/like_d_thread/#{current_user.id}/#{@t.id}/dislike" %>
+	</h3>
+<%end%>
+
+<% @likes = @dislikes = 0 %>
+<% @t.d_thread_ratings.each do |d| %>
+	<% @likes +=1 if d.likes == 1 %> 
+	<% @dislikes +=1 if d.likes == -1 %>
+<% end %> 
+
+<h3> <%="Likes : #{@likes}, Dislikes : #{@dislikes}"%> </h3>
+
+
+
+
+</br></br>
+<h3> Replies: </h3>
+<div id = "replies">
+<h3>	<%= render @t.replies %></h3>
+</div>
+
+<%= render :file => 'replies/new' %>
+
+<% link_to "new reply", new_d_thread_reply_path(@t, :format => :js), :remote => true, :id => 'new_reply_link' %>
+
+
+<p>
+		<% if current_user || $CURRENT_USER %>
+			<%= link_to 'Edit', edit_d_thread_path(@t) %> <%= edit_d_thread_path(@t) %>  
+		<% end %>
+		<br \>
+		<%= link_to 'Back to Discussion Board', d_threads_path %>   		
+		<%= link_to "Back to #{@crs.discipline}", "/#{@crs.discipline}/" %>
+		<%= link_to "Back to #{@crs.title}", @path %> 
+</p>
+
+		
+
+		

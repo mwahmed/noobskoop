@@ -1,0 +1,25 @@
+<%= div_for reply do %>
+
+
+
+	<% @idd = reply.user_id  %>
+	<% @ub = User.find_by_id("#{@idd}")  %>
+	  <% logo = image_tag(gravatar_for @ub, :alt => "Sample App", :class => "round") %> 
+        <%= gravatar_for @ub %> 
+	  <%= link_to logo, @ub %></h1> 
+	<h6> <strong><%=@ub.name%></strong></h6>
+
+  <h3>
+    <%= reply.author %> said:
+    <span class='actions'>
+    	<%= link_to 'Delete', [@t, reply], :confirm => 'Are you sure?', :method => :delete %>
+    </span>
+  </h3>
+<table>
+<tr>
+  <td><%= reply.body %></td>
+</tr>
+</table>
+<hr></hr>
+<% end %>
+

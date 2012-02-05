@@ -1,0 +1,2340 @@
+
+---
+courses:
+  columns:
+  - id
+  - title
+  - created_at
+  - updated_at
+  - courseCode
+  - session
+  - area
+  - description
+  - prerequisites
+  - corequisites
+  - lectureHours
+  - labHours
+  - tutorialHours
+  - discipline
+  - antiDescription
+  - areaName
+  - kernel
+  - exclusion
+  - year
+  records: 
+---
+  - - 1
+    - Engineering Strategies & Practice I
+    - '2011-09-21 02:27:25.106010'
+    - '2011-09-21 02:27:25.106010'
+    - APS111
+    - F
+    - 0
+    - This course introduces and provides a framework for the design process. Students
+      are introduced to communication as an integral component of engineering practice.
+      The course is a vehicle for understanding problem solving and developing communications
+      skills. This first course in the two Engineering Strategies and Practice course
+      sequence introduces students to the process of engineering design, to strategies
+      for successful team work, and to design for human factors, society and the environment.
+      Students write team and individual technical reports and give presentations
+      within a discussion group.
+    - !!null 
+    - !!null 
+    - 3.0
+    - 1.0
+    - 1.0
+    - ALL
+    - This course formalizes intuitions or how to do engineering design and communication.
+      There is a lot of theory about specific design techniques, and effective engineering
+      communication. The course tends to get pretty boring, but make sure you understand
+      broadly what each technique is about. Both the midterm and the final exam, are
+      multiple choice, with a few short/long answer questions.
+    - !!null 
+    - !!null 
+    - !!null 
+    - '1'
+  - - 2
+    - Ethics in Engineering
+    - '2011-09-21 02:27:25.246817'
+    - '2011-09-21 02:27:25.246817'
+    - APS150
+    - F
+    - 0
+    - ! 'An introduction to professional ethics and the Academic Code of Conduct.
+      Topics include: the theory of ethics, professional code of ethics, ethics in
+      the profession, proper use of intellectual property in the professional and
+      in academic settings, plagiarism, the Academic Code of Conduct, and application
+      of ethics in practice.'
+    - !!null 
+    - !!null 
+    - 0.0
+    - 0.0
+    - 1.0
+    - ALL
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '1'
+  - - 3
+    - Mechanics
+    - '2011-09-21 02:27:25.355192'
+    - '2011-09-21 02:27:25.355192'
+    - CIV100
+    - F
+    - 0
+    - The principles of statics are applied to composition and resolution of forces,
+      moments and couples. The equilibrium states of structures are examined. Throughout,
+      the free body diagram concept is emphasized. Vector algebra is used where it
+      is most useful, and stress blocks are introduced. Shear force diagrams, bending
+      moment diagrams and stress-strain relationships for materials are discussed.
+      Stress and deformation in axially loaded members and flexural members (beams)
+      are also covered.
+    - !!null 
+    - !!null 
+    - 3.0
+    - 0.0
+    - 2.0
+    - ALL
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '1'
+  - - 4
+    - Calculus A
+    - '2011-09-21 02:27:25.517596'
+    - '2011-09-21 02:27:25.517596'
+    - MAT196
+    - F
+    - 0
+    - Limits and continuity, differentiation, maximum and minimum problems, definite
+      and indefinite integrals, application of integration to geometry, mechanics,
+      and other engineering problems, introduction to first order differential equations.
+    - !!null 
+    - !!null 
+    - 3.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '1'
+  - - 5
+    - Linear Algebra
+    - '2011-09-21 02:27:25.619162'
+    - '2011-09-21 02:27:25.619162'
+    - MAT188
+    - F
+    - 0
+    - Systems of linear equations; matrices; determinants; vectors, lines and planes
+      in 3 dimensions; Rn; vector spaces; eigenvalues and eigenvectors; introduction
+      to products; applications.
+    - !!null 
+    - !!null 
+    - 3.0
+    - 0.0
+    - 1.0
+    - ALL
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '1'
+  - - 6
+    - Computer Fundamentals
+    - '2011-09-21 02:27:25.743966'
+    - '2011-09-21 02:27:25.743966'
+    - APS105
+    - F
+    - 0
+    - ! 'An introduction to computer systems and problem solving using computers.
+      Topics include: the representation of information, programming techniques, programming
+      style, basic loop structures, functions, arrays, strings, pointer-based data
+      structures and searching and sorting algorithms. The laboratories reinforce
+      the lecture topics and develops essential programming skills.'
+    - !!null 
+    - !!null 
+    - 3.0
+    - 2.0
+    - 1.0
+    - ECE
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '1'
+  - - 7
+    - ! 'Seminar Course: Introduction to Electrical and Computer Engineering'
+    - '2011-09-21 02:27:25.864959'
+    - '2011-09-21 02:27:25.864959'
+    - ECE101
+    - F
+    - 0
+    - This is a seminar series that will introduce first year students to the wealth
+      of subjects within the field of Electrical and Computer Engineering. Instructors
+      will be drawn from the various research groups within the Department. This course
+      will be offered on a credit/no-credit basis. Credit will not be given to students
+      who attend fewer than 70% of the seminars. Students who receive no credit for
+      the course must re-take it in their 2F session. Students who have not received
+      credit for this course at the end of their 2F session will not be permitted
+      to register in session 2S.
+    - !!null 
+    - !!null 
+    - 1.0
+    - 0.0
+    - 0.0
+    - ECE
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '1'
+  - - 8
+    - Engineering Strategies & Practice II
+    - '2011-09-21 02:27:25.997406'
+    - '2011-09-21 02:27:25.997406'
+    - APS112
+    - S
+    - 0
+    - This course introduces and provides a framework for the design process, problem
+      solving and project management. Students are introduced to communication as
+      an integral component of engineering practice. The course is a vehicle for practicing
+      team skills and developing communications skills. Building on the first course,
+      this second course in the two Engineering Strategies and Practice course sequence
+      introduces students to project management and to the design process in greater
+      depth. Students work in teams on a term length design project. Students will
+      write a series of technical reports and give a team based design project presentation.
+    - !!null 
+    - !!null 
+    - 3.0
+    - 2.0
+    - 0.0
+    - ALL
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '1'
+  - - 9
+    - Calculus B
+    - '2011-09-21 02:27:26.181906'
+    - '2011-09-21 02:27:26.181906'
+    - MAT197
+    - S
+    - 0
+    - Techniques of integration, introduction to second order differential equations,
+      sequences and series, vector-valued functions, functions of several variables,
+      partial differentiation. Applications to mechanics and other engineering problems.
+    - !!null 
+    - !!null 
+    - 3.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '1'
+  - - 10
+    - Introduction to Materials and Chemistry
+    - '2011-09-21 02:27:26.302567'
+    - '2011-09-21 02:27:26.302567'
+    - APS104
+    - S
+    - 0
+    - This is a seminar series that will introduce first year students to the wealth
+      of subjects within the field of Electrical and Computer Engineering. Instructors
+      will be drawn from the various research groups within the Department. This course
+      will be offered on a credit/no-credit basis. Credit will not be given to students
+      who attend fewer than 70% of the seminars. Students who receive no credit for
+      the course must re-take it in their 2F session. Students who have not received
+      credit for this course at the end of their 2F session will not be permitted
+      to register in session 2S.
+    - !!null 
+    - !!null 
+    - 1.0
+    - 0.0
+    - 0.0
+    - ECE
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '1'
+  - - 11
+    - Dynamics
+    - '2011-09-21 02:27:26.437408'
+    - '2011-09-21 02:27:26.437408'
+    - MIE100
+    - S
+    - 0
+    - ! 'This is an introductory course in materials science and physical chemistry.
+      Topics include: fundamentals of atomic, structure, the nature of bonding, crystal
+      structure and defects, the laws of chemical thermodynamics (including a discussion
+      of enthalpy and entropy), reaction equilibrium, and phase equilibria. These
+      basic principles provide the foundation for an exploration of structure-property
+      relationships in metals, ceramics, and polymers, with emphasis on mechanical
+      properties.'
+    - !!null 
+    - !!null 
+    - 3.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '1'
+  - - 12
+    - Electrical Fundamentals
+    - '2011-09-21 02:27:26.578280'
+    - '2011-09-21 02:27:26.578280'
+    - ECE110
+    - S
+    - 0
+    - ! 'A simplified overview of the physics of electricity and magnetism: Coulomb''s
+      law, Gauss'' law, Ampere''s law, Faraday''s law. Physics of capacitors, resistors,
+      and inductors. An introduction to circuit analysis: resistive circuits, nodal
+      and mesh analysis, network theorems. Natural and forced response of RL and RC
+      circuits. Sinusoidal steady-state analysis and power in AC circuits.'
+    - !!null 
+    - !!null 
+    - 3.0
+    - 2.0
+    - 1.0
+    - ECE
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '1'
+  - - 13
+    - Circuit Analysis
+    - '2011-09-21 02:27:26.746252'
+    - '2011-09-21 02:27:26.746252'
+    - ECE212
+    - F
+    - 0
+    - Nodal and loop analysis and network theorems. Natural and forced response of
+      RL, RC, and RLC circuits. Sinusoidal steady-state analysis. Frequency response;
+      resonance phenomena; poles and zeros; applications of the Laplace transform.
+    - !!null 
+    - !!null 
+    - 3.0
+    - 3.0
+    - 2.0
+    - ECE
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '2'
+  - - 14
+    - Digital Systems
+    - '2011-09-21 02:27:26.865162'
+    - '2011-09-21 02:27:26.865162'
+    - ECE241
+    - F
+    - 0
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '2'
+  - - 15
+    - ! 'Programming Fundamentals '
+    - '2011-09-21 02:27:26.985715'
+    - '2011-09-21 02:27:26.985715'
+    - ECE244
+    - F
+    - 0
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '2'
+  - - 16
+    - Advanced Engineering Mathematics
+    - '2011-09-21 02:27:27.108441'
+    - '2011-09-21 02:27:27.108441'
+    - MAT290
+    - F
+    - 0
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '2'
+  - - 17
+    - Calculus III
+    - '2011-09-21 02:27:27.226482'
+    - '2011-09-21 02:27:27.226482'
+    - MAT291
+    - F
+    - 0
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '2'
+  - - 18
+    - Signals and System
+    - '2011-09-21 02:27:27.339522'
+    - '2011-09-21 02:27:27.339522'
+    - ECE216
+    - S
+    - 0
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '2'
+  - - 19
+    - Electric and Magnetic Fields
+    - '2011-09-21 02:27:27.460335'
+    - '2011-09-21 02:27:27.460335'
+    - ECE221
+    - S
+    - 0
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '2'
+  - - 20
+    - Introductory Electronics
+    - '2011-09-21 02:27:27.581329'
+    - '2011-09-21 02:27:27.581329'
+    - ECE231
+    - S
+    - 0
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '2'
+  - - 21
+    - Computer Organization
+    - '2011-09-21 02:27:27.724442'
+    - '2011-09-21 02:27:27.724442'
+    - ECE243
+    - S
+    - 0
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '2'
+  - - 22
+    - Communication and Design
+    - '2011-09-21 02:27:27.863787'
+    - '2011-09-21 02:27:27.863787'
+    - ECE297
+    - S
+    - 0
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - '2'
+  - - 23
+    - Introduction to Electronic Devices
+    - '2011-09-21 02:27:28.079726'
+    - '2011-09-21 02:27:28.079726'
+    - ECE335H1
+    - F
+    - 1
+    - ! 'Electrical behaviour of semiconductor structures and devices. Metal-semiconductor
+      contacts; pn junctions, diodes, photodetectors, LED''s; bipolar junction transistors,
+      Ebers-Moll and hybrid-pi models; field effect transistors, MOSFET, JFET/MESFET
+      structures and models; thyristors and semiconductor lasers. '
+    - MAT291H1 F and ECE221H1 S and ECE231H1 S
+    - !!null 
+    - 3.0
+    - 0.0
+    - 2.0
+    - ECE
+    - !!null 
+    - Photonics & semiconductor physics
+    - Kernel
+    - !!null 
+    - upper
+  - - 24
+    - Introduction to Micro- and Nano-Fabrication Technologies
+    - '2011-09-21 02:27:28.211769'
+    - '2011-09-21 02:27:28.211769'
+    - ECE442H1
+    - F
+    - 1
+    - An introduction to the fundamentals of micro- and nano-fabrication processes
+      with emphasis on cleanroom practices. The physical principles of optical lithography,
+      electron-beam lithography, alternative nanolithography techniques, and thin
+      film deposition and metrology methods. The physical and chemical processes of
+      wet and dry etching. Cleanroom concepts and safety protocols. Sequential micro-fabrication
+      processes involved in the manufacture of microelectronic and photonic devices.
+      Imaging and characterization of micro- and nano-structures. Examples of practical
+      existing and emerging micro- and nano-devices. Limited enrollment.
+    - ECE335H1 or ECE350H1
+    - !!null 
+    - 3.0
+    - 4.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Photonics & semiconductor physics
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 25
+    - Photonic Devices
+    - '2011-09-21 02:27:28.343631'
+    - '2011-09-21 02:27:28.343631'
+    - ECE527H1
+    - F
+    - 1
+    - ! 'This course will introduce students to a range of photonic components useful
+      in many applications ranging from bio-photonics and sensors to optical communications.
+      The students will gain a solid understanding of the fundamental phenomena involved
+      in photonic devices operation and hence their design. Topics covered in this
+      course include: birefringent media such as liquid crystal displays; polarization
+      states of light and its uses in device applications; interaction of light with
+      matter and its influence in device performance; the uses of Gaussian beams and
+      resonators in free space optical systems; basics of guiding light; periodic
+      structures and optical thin films; waveguide couplers and splitters for manipulating
+      light; nano-optics and plasmonic waveguides.'
+    - !!null 
+    - !!null 
+    - 2.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Photonics & semiconductor physics
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 26
+    - Advanced Electronic Devices
+    - '2011-09-21 02:27:28.510595'
+    - '2011-09-21 02:27:28.510595'
+    - ECE535H1
+    - F
+    - 1
+    - ! 'Heterojunctions, SiGe, InP and GaSb HBTs.  MOS device scaling and scaling
+      limits, Dennard''s constant field scaling rules, device characteristics and
+      short channel effects.  Charge quantization, gate stack, strain and substrate
+      engineering in nanoscale MOSFETs.  Nanoscale CMOS fabrication process flow,
+      isolation methods, strategies to suppress short channel effects, stress memorization
+      techniques.  Technology CAD for process and device simulations.  SPICE models
+      for circuit simulation.  SOI (Silicon on Insulator) technology, III-V FETs and
+      graphene transistors.  High Power Devices:  LDMOS, AIGaN/GaN HEMTs.'
+    - ECE335H1 F or ECE350H1 F
+    - !!null 
+    - 2.0
+    - 0.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Photonics & semiconductor physics
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 27
+    - Fundamentals of Optics
+    - '2011-09-21 02:27:28.640596'
+    - '2011-09-21 02:27:28.640596'
+    - ECE318H1
+    - S
+    - 1
+    - ! 'Geometric Optics: Spherical surfaces, lenses and mirrors, optical imaging
+      systems, matrix method, and aberrations. Polarization:  Polarizer and polarizations,
+      anisotropic materials, dichroism, birefringence, index ellipsoid, waveplates,
+      optical activity, Faraday effect. Interference: superposition of waves, longitudinal
+      and transverse coherence, Young''s double-slit experiment, Michelson and Fabry-Perot
+      interferometer, thin-films. Diffraction and Fourier Optics: diffraction theory,
+      single and double slits, diffraction gratings, spatial filtering, basic optical
+      signal processing.  (Background preparation in ECE320H1 F - Fields and Waves,
+      or ECE357H1 S - Electromagnetic Fields, is strongly recommended.)'
+    - ECE221H1 S
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Photonics & semiconductor physics
+    - Kernel
+    - !!null 
+    - upper
+  - - 28
+    - Semiconductor and Device Physics
+    - '2011-09-21 02:27:28.749649'
+    - '2011-09-21 02:27:28.749649'
+    - ECE330H1
+    - S
+    - 1
+    - Wave and quantum mechanics, the Schrodinger equation, quantum wells and density
+      of states. Quantum statistics, solid-state bonding and crystal structure. Electron
+      waves, dispersion relation inside periodic media, Fermi level and energy bands.
+      Physical understanding of semiconductors at equilibrium, intrinsic and extrinsic
+      semiconductors and excess carriers.
+    - ECE221H1 S and ECE231H1 S. (Backround preparation in ECE320H1 F - Fields and
+      Waves is strongly recommended).
+    - !!null 
+    - 3.0
+    - 0.0
+    - 2.0
+    - ECE
+    - !!null 
+    - Photonics & semiconductor physics
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 29
+    - Optical Communications and Networks
+    - '2011-09-21 02:27:28.858437'
+    - '2011-09-21 02:27:28.858437'
+    - ECE469H1
+    - S
+    - 145
+    - This course provides an introduction to optical communication systems and networks
+      at the system and functional level.  Applications range from telecommunication
+      networks (short to long haul) to computing networks (chip-to-chip, on chip communications,
+      optical backplanes).  Basic principles of optical transmission and associated
+      components used for transmission of light and optical networks; system design
+      tools for optical links; multi-service system requirements; optical network
+      design tools (routing and wavelength assignment), network management and survivability.
+    - !!null 
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Photonics & semiconductor physics $ Control, communications & signal processing
+      $ Computer hardware & computer networks
+    - Technical Elective
+    - ECE425S or ECE467S
+    - upper
+  - - 30
+    - Lasers and Detectors
+    - '2011-09-21 02:27:29.015097'
+    - '2011-09-21 02:27:29.015097'
+    - ECE525H1
+    - S
+    - 1
+    - ! 'This course focuses on photonic components which generate or absorb light.
+      Lasers: spontaneous and stimulated emission, gain and absorption, gain broadening;
+      modulation dynamics, mode-locking, Q-switching; semiconductor lasers. Photodetectors:
+      absorption, photo-generated currents, noise in detection.'
+    - One of ECE330/350H1 or PHY335/355H1, and one of ECE318/320/357H1 ECE318H1 S
+      can also be taken as a co-requisite instead of a pre-requisite.)
+    - !!null 
+    - 3.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Photonics & semiconductor physics
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 31
+    - Introduction to Quantum Mechanics
+    - '2011-09-21 02:27:29.133382'
+    - '2011-09-21 02:27:29.133382'
+    - PHY335H1
+    - S
+    - 17
+    - Review of elementary quantum mechanics, (photo-electric and Compton effects,
+      Bohr model, de Broglie waves); some bound (harmonic oscillator, hydrogen atom)
+      and unbound (potential barriers) solutions of the Schrodiner equation; probability
+      interpretation; operators and the theory of measurement; expectation values
+      and uncertainties; angular momentum (orbital and spin); magnetic resonance as
+      an application.
+    - !!null 
+    - !!null 
+    - 2.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Photonics & semiconductor physics $ Science/math electives
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 32
+    - Fundamentals of Electrical Energy Systems
+    - '2011-09-21 02:27:29.265273'
+    - '2011-09-21 02:27:29.265273'
+    - ECE314H1
+    - F
+    - 2
+    - ! 'Introduction to 3-phase systems, single line diagrams and complex power flow.
+      Energy conversion via switch-mode power electronic circuits: DC/DC converters,
+      DC/AC converters. Energy conversions via magnetic devices: Faraday''s law for
+      time varying fields, characterization of hysteresis and eddy current losses
+      in magnetic materials, modelling of magnetic circuits, transformer and inductor
+      modelling and design. Introduction to electromechanical energy conversion: Lorentz
+      Force, concepts of energy, co-energy, forces between ferromagnetic materials
+      carrying flux, simple magnetic actuators.'
+    - ECE212H1 F and ECE221H1S and ECE231H1 S
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Electromagnetics & energy systems
+    - Kernel
+    - ECE315H1 F
+    - upper
+  - - 33
+    - Fields and Waves
+    - '2011-09-21 02:27:29.432853'
+    - '2011-09-21 02:27:29.432853'
+    - ECE320H1
+    - F
+    - 2
+    - ! 'Voltage and current waves on a general transmission line, reflections from
+      the load and source, transients on the line, and Smith''s chart. Maxwell''s
+      equations, electric and magnetic fields wave equations, boundary conditions,
+      plane wave propagation, reflection and transmission at boundaries, constitutive
+      relations, dispersion, polarization; Poynting vector; waveguides. '
+    - ECE221H1 S
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Electromagnetics & energy systems
+    - Kernel
+    - !!null 
+    - upper
+  - - 34
+    - Introduction to Lighting Systems
+    - '2011-09-21 02:27:29.600096'
+    - '2011-09-21 02:27:29.600096'
+    - ECE510H1
+    - F
+    - 2
+    - An introduction to the physics of lighting systems (e.g. plasma physics, radiation
+      spectrum, physics of light-emitting diodes) and the corresponding power electronic
+      driver circuits (ballasts). The operating principles and the science behind
+      different types of lamps are covered. These include incandescent, fluorescent,
+      low and high pressure sodium, mercury, metal halide lamps and LED lighting systems.
+      The designs and technical challenges of the electronic ballasts for each type
+      of lighting source are discussed. Issues related to lighting regulations, layout,
+      delivery, efficiency, control and the economic and environmental assessment
+      of current lighting systems are briefly addressed.
+    - ECE314H1 F or ECE315H1 F or ECE 349H1 F or ECE359H1 F
+    - !!null 
+    - 2.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Electromagnetics & energy systems
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 35
+    - Microwave Circuits
+    - '2011-09-21 02:27:29.717685'
+    - '2011-09-21 02:27:29.717685'
+    - ECE524H1
+    - F
+    - 2
+    - The wave equation; losses in conductors and dielectrics; RF and microwave transmission
+      lines; transients on transmission lines; matching networks; planar transmission
+      lines (microstrip, stripline, coplanar waveguide); design with scattering parameters;
+      3- and 4-port RF devices (power dividers/combiners, couplers, isolators & circulators);
+      coupled lines and devices; microwave active circuits (RF amplifiers, mixers,
+      and receiver front ends); RF and microwave filters. The hands-on laboratories
+      engage students in the design, simulation, fabrication, and test of practical
+      passive and active microwave circuits using industry-standard RF/microwave simulation
+      tools and measurement systems.
+    - ECE320H1 F or ECE357H1 S
+    - !!null 
+    - 2.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Electromagnetics & energy systems
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 36
+    - Advanced Power Electronics
+    - '2011-09-21 02:27:29.838520'
+    - '2011-09-21 02:27:29.838520'
+    - ECE533H1
+    - F
+    - 2
+    - ! 'This course covers system issues associated with the design of switched mode
+      power supplies for telecommunication, computer network and information applications.
+      Topics to be covered include: power processing architectures; steady state analysis
+      and component ratings; control loop modelling and control loop design; EMC regulatory
+      issues.'
+    - ECE314H1 F or ECE315H1 F or ECE349H1 F or ECE359H1 S
+    - !!null 
+    - 3.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Electromagnetics & energy systems
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 37
+    - Medical Imaging
+    - '2011-09-21 02:27:29.959290'
+    - '2011-09-21 02:27:29.959290'
+    - BME595H1
+    - S
+    - 24
+    - ! 'This is a first course in medical imaging. It is designed as a final year
+      course for engineers. It has a physical and mathematical approach emphasizing
+      engineering concepts and design. It describes magnetic resonance and ultrasound
+      and X ray imaging in detail. These topics allow engineers to apply principles
+      learned in the first two years in: computer fundamentals, dynamics, calculus,
+      basic EM theory, algebra and differential equations, signals systems. It is
+      a depth course complementing the kernels: communication systems (modulation),
+      fields and waves (wave propagation) and on probability and random processes
+      (Poisson and Gaussian noise). It will introduce students to the concept of measurement
+      as an "inverse problem". The laboratory will involve hands on NMR and Ultrasound
+      measurements as well as image analysis of MRI data.'
+    - !!null 
+    - !!null 
+    - 2.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Electromagnetics & energy systems $ Control, communications & signal processing
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 38
+    - Energy Systems and Distributed Generation
+    - '2011-09-21 02:27:30.106764'
+    - '2011-09-21 02:27:30.106764'
+    - ECE413H1
+    - S
+    - 2
+    - Three-phase systems; steady-state transmission line model; symmetrical three-phase
+      faults; power system stability; symmetrical components; unsymmetrical faults
+      and fault current calculation; distribution network; equivalent steady-state
+      model of voltage-sourced converter; distributed energy resources (DR); distributed
+      energy storage; interface between DR and power system.
+    - ECE314H1 F or ECE315H1 F or ECE349H1F or ECE359H1 F
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Electromagnetics & energy systems
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 39
+    - Radio and Microwave Wireless Systems
+    - '2011-09-21 02:27:30.212519'
+    - '2011-09-21 02:27:30.212519'
+    - ECE422H1
+    - S
+    - 2
+    - ! 'Analysis and design of systems employing radio waves, covering both the underlying
+      electromagnetics and the overall system performance aspects such as signal-to-noise
+      ratios. Transmission/reception phenomena include: electromagnetic wave radiation
+      and polarization; elementary and linear dipoles; directivity, gain, efficiency;
+      integrated, phased-array and aperture antennas; beam-steering; Friis transmission
+      formulas. Propagation phenomena include: diffraction and wave propagation over
+      obstacles; multipath propagation in urban environments; atmospheric and ionospheric
+      effects. Receiver design aspects include: receiver figures of merit, noise in
+      cascaded systems, noise figure, and noise temperature. System examples are:
+      fixed wireless access; mobile and personal communication systems; wireless cellular
+      concepts; satellite communications; radar; radiometric receivers; GPS.'
+    - ECE320H1 F or ECE357H1 S
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Electromagnetics & energy systems
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 40
+    - Electric Drives
+    - '2011-09-21 02:27:30.332990'
+    - '2011-09-21 02:27:30.332990'
+    - ECE463H1
+    - S
+    - 2
+    - Electro-mechanical mechanisms for force and torque production in rotating machines.
+      DC machine theory and DC machine dynamics, synchronous machines and their dynamics,
+      stepper motors. Introduction to space vectors and vector control of AC machines.  Steady
+      state and variable speed operation of the induction machine via V/f control.
+    - ECE314H1 F or ECE315H1 F or ECE349H1 F or ECE359H1 F
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Electromagnetics & energy systems
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 41
+    - Analog Electronics
+    - '2011-09-21 02:27:30.465639'
+    - '2011-09-21 02:27:30.465639'
+    - ECE331H1
+    - B
+    - 3
+    - ! 'Transistor amplifiers, including: differential and multistage amplifiers,
+      integrated circuit biasing techniques, output stage design and IC amplifier
+      building blocks. Frequency response of amplifiers at low, medium and high frequencies.
+      Feedback amplifier analysis. Stability and compensation techniques for amplifiers
+      using negative feedback.'
+    - ECE212H1 F and ECE231H1 S
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Analog & digital electronics
+    - Kernel
+    - !!null 
+    - upper
+  - - 42
+    - Digital Electronics
+    - '2011-09-21 02:27:30.652844'
+    - '2011-09-21 02:27:30.652844'
+    - ECE334H1
+    - B
+    - 3
+    - ! 'Digital design techniques for integrated circuits. The emphasis will be on
+      the design of logic gates at the transistor level. A number of different logic
+      families will be described, but CMOS will be emphasized. Review of: device modeling,
+      IC processing, and Spice simulation, simplified layout rules, inverter noise
+      margins, transient response, and power dissipation, traditional CMOS logic design,
+      transmission gates, RC timing approximations, input-output circuits, latches
+      and flipflops, counters and adders, decoders and muxes, dynamic gates, SRAMs,
+      DRAMs, and EEPROMs.'
+    - ECE241H1 F and ECE231H1 S or ECE253H1 F and ECE360H1 F
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Analog & digital electronics
+    - Kernel
+    - !!null 
+    - upper
+  - - 43
+    - Sensory Communication
+    - '2011-09-21 02:27:30.773921'
+    - '2011-09-21 02:27:30.773921'
+    - ECE446H1
+    - F
+    - 34
+    - Physical acoustics, acoustic measurements, electroacoustic transducers, and
+      physiological acoustics. Speech processing, speech recognition algorithms and
+      signal processing by the auditory system. Engineering aspects of acoustic design.
+      Electrical models of acoustic systems. Noise, noise-induced hearing loss, and
+      noise control. Introduction to vision and other modalities. Musical and psychoacoustics.
+    - !!null 
+    - !!null 
+    - 3.0
+    - 3.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Analog & digital electronics $ Control, communications & signal processing
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 44
+    - Analog Signal Processing Circuits
+    - '2011-09-21 02:27:30.911257'
+    - '2011-09-21 02:27:30.911257'
+    - ECE512H1
+    - F
+    - 3
+    - An overview of analog signal processing in both continuous-time and discrete-time.
+      The design of analog filters including transfer function approximation using
+      Matlab and implementation using active-RC, transconductance-C, and switched-capacitor
+      circuits. Other topics include oversampling and noise in analog circuits.
+    - ECE331H1 F or ECE354H1 S
+    - !!null 
+    - 3.0
+    - 0.0
+    - 2.0
+    - ECE
+    - !!null 
+    - Analog & digital electronics
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 45
+    - Integrated Circuit Engineering
+    - '2011-09-21 02:27:31.049517'
+    - '2011-09-21 02:27:31.049517'
+    - ECE534H1
+    - F
+    - 3
+    - ! 'The course deals with the technology and design of analog, digital and RF
+      integrated circuits, including exposure to computer aided IC design tools at
+      the semiconductor process, device, and circuit layout level. Topics include:
+      IC fabrication review, MOS IC process modules and components; RF (Bi) CMOS IC
+      process modules and components; compact modelling, characterization and design
+      automation; Bipolar/CMOS digital, analog, and RF IC building blocks; packaging
+      and yield. The labs will expose students to the major design steps in the development
+      of a multi-purpose (Bi) CMOS process.'
+    - ECE331H1 F or ECE334H1 F/S and ECE335H1 F
+    - !!null 
+    - 2.0
+    - 3.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Analog & digital electronics
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 46
+    - VLSI Systems and Design
+    - '2011-09-21 02:27:31.218887'
+    - '2011-09-21 02:27:31.218887'
+    - ECE451H1
+    - S
+    - 35
+    - An introduction to the design, verification and layout of VLSI circuits for
+      complex digital systems. The focus is on CMOS technology, using custom and standard
+      cell-based design flows, and covering both design and computer-aided design
+      techniques. Topics covered include deep sub-micron design, clocking techniques,
+      physical design, sub-system design, power, testing, simulation, placement/routing,
+      synthesis, and test generation. The course has a major project component in
+      which students design and produce a layout for a small microprocessor chip.
+    - !!null 
+    - !!null 
+    - 3.0
+    - 3.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Analog & digital electronics $ Computer hardware & computer networks
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 47
+    - Analog Integrated Circuits
+    - '2011-09-21 02:27:31.334979'
+    - '2011-09-21 02:27:31.334979'
+    - ECE530H1
+    - S
+    - 3
+    - ! 'Review of MOSFET semiconductor device equations. Review of basic amplifier
+      circuits. Basic CMOS op amp. Op amp compensation. Advanced op amp circuits:
+      telescopic and folded-cascode op amps; fully-differential op amps. Comparators.
+      Sample-and-hold circuits. Bandgap reference circuits. Nyquist-rate data converters:
+      D/A converters, A/D converters.'
+    - ECE331H1 F or ECE354H1 S
+    - !!null 
+    - 2.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Analog & digital electronics
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 48
+    - Digital Systems Design
+    - '2011-09-21 02:27:31.457096'
+    - '2011-09-21 02:27:31.457096'
+    - ECE532H1
+    - S
+    - 35
+    - Advanced digital systems design concepts including project planning, design
+      flows, embedded processors, hardware/software interfacing and interactions,
+      software drivers, embedded operating systems, memory interfaces, system-level
+      timing analysis, clocking and clock domains. A significant design project is
+      undertaken and implemented on an FPGA development board.
+    - ECE342H1 S or ECE352H1 F
+    - !!null 
+    - 2.0
+    - 3.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Analog & digital electronics $ Computer hardware & computer networks
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 49
+    - Communication Systems
+    - '2011-09-21 02:27:31.577950'
+    - '2011-09-21 02:27:31.577950'
+    - ECE316H1
+    - B
+    - 4
+    - An introductory course in analog and digital communication systems. Analog and
+      digital signals. Signal representation and Fourier transforms; energy and power
+      spectral densities; bandwidth. Distortionless analog communication; amplitude,
+      frequency and phase modulation systems; frequency division multiplexing. Sampling,
+      quantization and pulse code modulation (PCM). Baseband digital communication;
+      intersymbol interference (ISI); Nyquist's ISI criterion; eye diagrams. Passband
+      digital communications; amplitude-, phase- and frequency-shift keying; signal
+      constellations. Performance analysis of analog modulation schemes in the presence
+      of noise. Performance analysis of PCM in noise.
+    - MAT290H1 F and ECE216H1 S or ECE355H1 F
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Control, communications & signal processing
+    - Kernel
+    - !!null 
+    - upper
+  - - 50
+    - Probability and Applications
+    - '2011-09-21 02:27:31.739710'
+    - '2011-09-21 02:27:31.739710'
+    - ECE302H1
+    - B
+    - 477
+    - Events, sample space, axioms of probability. Discrete and continuous random
+      variables, distribution and density functions. Bernoulli trials, Binomial, geometric,
+      Poisson, exponential and Gaussian distributions. Expectation, moments, characteristic
+      function, correlation coefficient. Functions of random variables. Random vectors,
+      joint distributions, transformations. Applications will be chosen from communication
+      theory, estimation and hypothesis testing, and other areas of electrical engineering.
+    - MAT290H1 F and MAT291H1 F and ECE216H1 S
+    - !!null 
+    - 3.0
+    - 0.0
+    - 2.0
+    - ECE
+    - !!null 
+    - Control, communications & signal processing $ Science/math electives $ Science/math
+      electives
+    - Technical Elective
+    - STA286H1 S
+    - upper
+  - - 51
+    - Control Systems
+    - '2011-09-21 02:27:31.852657'
+    - '2011-09-21 02:27:31.852657'
+    - ECE410H1
+    - F
+    - 4
+    - ! 'State space analysis of linear systems, the matrix exponential, linearization
+      of nonlinear systems. Structural properties of linear systems: stability, controllability,
+      observability, stabilizability, and detectability. Pole assignment using state
+      feedback, state estimation using observers, full-order and reduced-order observer
+      design, design of feedback compensators using the separation principle, control
+      design for tracking. Control design based on optimization, linear quadratic
+      optimal control, the algebraic Riccati equation. Laboratory experiments include
+      computer-aided design using MATLAB and the control of an inverted pendulum on
+      a cart.'
+    - ECE311H1 S
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Control, communications & signal processing
+    - Technical Elective
+    - ECE557H1 F
+    - upper
+  - - 52
+    - Digital Signal Processing
+    - '2011-09-21 02:27:31.984844'
+    - '2011-09-21 02:27:31.984844'
+    - ECE431H1
+    - B
+    - 4
+    - ! 'An introductory course in digital filtering and applications. Introduction
+      to real-world signal processing. Review of sampling and quantization of signals.
+      Introduction to the discrete Fourier transform and its properties. The fast
+      Fourier transform. Fourier analysis of signals using the discrete Fourier transform.
+      Structures for discrete-time systems. Design and realization of digital filters:
+      finite and infinite impulse response filters. DSP applications to communications:
+      decimators and interpolators, estimation, equalization. DSP applications to
+      multimedia: DCT and video coding.'
+    - !!null 
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Control, communications & signal processing
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 53
+    - Neural Bioelectricity
+    - '2011-09-21 02:27:32.123497'
+    - '2011-09-21 02:27:32.123497'
+    - ECE445H1
+    - F
+    - 4
+    - ! 'This course deals with generation, transmission and significance of bioelectricity
+      in neural networks. Topics covered include: (i) Basic features of neural systems.
+      (ii) Ionic transport mechanisms in neural membranes. (iii) Nonlinear circuit
+      models of neuronal membranes. (iv) Propagation of electricity in neural cables.
+      (v) Extracellular electric fields of cellular moving current sources. (vi) Biological
+      neural networks. (vii) Artificial neural networks. (viii) Learning and memory
+      in artificial neural networks. Laboratory topics include: (a) Measurement of
+      surface potentials on human torsos. (b) Generation of cellular electricity in
+      computer models of nonlinear circuits. (c) Propagation of bioelectricity in
+      computer models of nonlinear neural cables. (d) Investigation of a computer
+      model of a periform cortex network.'
+    - !!null 
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Control, communications & signal processing
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 54
+    - Random Processes
+    - '2011-09-21 02:27:32.290906'
+    - '2011-09-21 02:27:32.290906'
+    - ECE537H1
+    - F
+    - 4
+    - Introduction to the principles and properties of random processes, with applications
+      to communications, control systems, and computer science. Random vectors, random
+      convergence, random processes, specifying random processes, Poisson and Gaussian
+      processes, stationarity, mean square derivatives and integrals, ergodicity,
+      power spectrum, linear systems with stochastic input, mean square estimation,
+      Markov chains, recurrence, absorption, limiting and steady-state distributions,
+      time reversibility, and balance equations.
+    - STA286H1 S and ECE355H1 F or ECE302H1 F/S
+    - ECE355H1 F (can be taken at the same time as ECE537H1 F)
+    - 3.0
+    - 0.0
+    - 2.0
+    - ECE
+    - !!null 
+    - Control, communications & signal processing
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 55
+    - Dynamic Systems and Control
+    - '2011-09-21 02:27:32.445901'
+    - '2011-09-21 02:27:32.445901'
+    - ECE311H1
+    - S
+    - 4
+    - ! 'An introduction to dynamic systems and their control. Differential equation
+      models of mechanical, electrical, and electromechanical systems. State variable
+      form. Linearization of nonlinear models and transfer functions. Use of Laplace
+      transform to solve ordinary differential equations. Conversion of models from
+      state variable form to transfer function representation and vice versa. Block
+      diagrams and their manipulation. Time response: transient analysis and performance
+      measures. Properties of feedback control systems. Steady state tracking: the
+      notion of system type. The concept of stability of feedback systems, Routh-Hurwitz
+      stability criterion. Frequency response and stability in the frequency domain.
+      Root locus. Bode and Nyquist plots and their use in feedback control design.'
+    - MAT290H1 F and MAT291H1 F and ECE216H1S
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Control, communications & signal processing
+    - Kernel
+    - !!null 
+    - upper
+  - - 56
+    - Real-Time Computer Control
+    - '2011-09-21 02:27:32.601177'
+    - '2011-09-21 02:27:32.601177'
+    - ECE411H1
+    - S
+    - 4
+    - Digital Control analysis and design by state-space methods. Introduction to
+      scheduling of control tasks using fixed-priority protocols. Labs include control
+      design using MATLAB and Simulink, and computer control of the inverted pendulum
+      using a PC with real-time software.
+    - ECE311H1 S or ECE356H1 S
+    - !!null 
+    - 3.0
+    - 3.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Control, communications & signal processing
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 57
+    - Digital Communication
+    - '2011-09-21 02:27:32.766003'
+    - '2011-09-21 02:27:32.766003'
+    - ECE417H1
+    - S
+    - 4
+    - Basic concepts of digital communication. Baseband data transmission, intersymbol
+      interference, Nyquist pulse shaping, equalization, line coding, multi-path fading,
+      diversity. Binary and M-ary modulation schemes, synchronization. Signal space
+      concepts, optimum receivers, coherent and noncoherent detectors. Information
+      theory, source encoding, error control coding, block and convolutional codes.
+    - ECE302H1 F/S and ECE316H1 F/S, or STA286H1
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Control, communications & signal processing
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 58
+    - Multimedia Systems
+    - '2011-09-21 02:27:32.946400'
+    - '2011-09-21 02:27:32.946400'
+    - ECE462H1
+    - S
+    - 4
+    - Topics in the engineering area of multimedia systems with particular emphasis
+      on the theory, design features, performance, complexity analysis, optimization
+      and application of multimedia engineering technologies. Topics include sound/audio,
+      image and video characterization, compression, source entropy and hybrid coding,
+      transform coding, wavelet-based coding, motion estimation, JPEG coding, digital
+      video coding, MPEG-1/2 coding, content-based processing, and MPEG-7.
+    - !!null 
+    - !!null 
+    - 3.0
+    - 2.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Control, communications & signal processing
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 59
+    - Wireless Communication
+    - '2011-09-21 02:27:33.107233'
+    - '2011-09-21 02:27:33.107233'
+    - ECE464H1
+    - S
+    - 4
+    - ! 'The radio medium, radio communication system examples. Link budget: cable
+      losses, propagation loss, antenna gains. Basic concepts of propagation: path
+      loss, multi-path propagation and fading. Raleigh and Rician fading models, Doppler
+      shift, delay spread, coherence time and coherence bandwidth of the channel.
+      Analog modulation schemes and their bandwidths. Digital modulation schemes and
+      their bandwidths and bit rates: BPSK, QPSK, MSK, GMSK. Basic concepts of speech
+      coding. Error correction coding, interleaving, and multiple access frame structure.
+      The physical layer description of the AMPS, IS-54, and GSM cellular systems.
+      The cellular concept: frequency re-use, re-use cluster concept. Channel allocation.
+      Cellular system architecture for AMPS, IS-54, and GSM. Hand-offs and transmitter
+      power control. Cellular traffic, call blocking, concept of Erlangs. Basic ideas
+      in spread spectrum modulation, spreading codes, bit error probability. Orthogonal
+      and non-orthogonal CDMA Basic concepts in CDMA networks.'
+    - ECE302H1 F/S and ECE316H1 F/S, or STA286H1
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Control, communications & signal processing
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 60
+    - Robot Modeling and Control
+    - '2011-09-21 02:27:33.221069'
+    - '2011-09-21 02:27:33.221069'
+    - ECE470H1
+    - S
+    - 4
+    - Classification of robot manipulators, kinematic modeling, forward and inverse
+      kinematics, velocity kinematics, path planning, point-to-point trajectory planning,
+      dynamic modeling, Euler-Langrange equations, inverse dynamics, joint control,
+      computed torque control, passivity-based control, feedback linearization.
+    - ECE311H1 S or ECE356H1 S
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Control, communications & signal processing
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 61
+    - Intelligent Image Processing
+    - '2011-09-21 02:27:33.346655'
+    - '2011-09-21 02:27:33.346655'
+    - ECE516H1
+    - S
+    - 4
+    - ! 'This course provides the student with the fundamental knowledge needed in
+      the rapidly growing field of Personal Cybernetics, including "Wearable Computing",
+      "Personal Technologies", "Human Computer Interaction (HCI)," "Mobile Multimedia,"
+      "Augmented Reality," "Mediated Reality," CyborgLogging," and the merging of
+      communications devices such as portable telephones with computational and imaging
+      devices.  The focus is on fundamental aspects and new inventions for human-computer
+      interaction.  Topics to be covered include: mediated reality, Personal Safety
+      Devices, lifelong personal video capture, the Eye Tap principle, collinearity
+      criterion, comparametric equations, photoquantigraphic imaging, lightvector
+      spaces, anti-homomorphic imaging, application of personal imaging to the visual
+      arts, and algebraic projective geometry.'
+    - !!null 
+    - !!null 
+    - 2.0
+    - 3.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Control, communications & signal processing
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 62
+    - Inference Algorithms
+    - '2011-09-21 02:27:33.501226'
+    - '2011-09-21 02:27:33.501226'
+    - ECE521H1
+    - S
+    - 4
+    - Squared error and the Gaussian probability distribution. Maximum likelihood
+      estimation. Logistic regression, neural networks, radial basis function networks.
+      Occam's razor, validation, bagging, Bayesian techniques. Auto-encoders, principal
+      components analysis, clustering. The EM algorithm. Matrix factorization. Markov
+      models, hidden Markov models, the forward-backward algorithm, the Viterbi algorithm.
+      Factor graphs, Bayesian networks, variable elimination, the sum-product algorithm,
+      the max-product algorithm. Estimating graphical models. Applications to image
+      classification, image processing, object tracking, speech recognition, telecommunications
+      and genomics.
+    - STA286H1 S and ECE355H1 F or ECE302H1 F/S
+    - !!null 
+    - 3.0
+    - 0.0
+    - 2.0
+    - ECE
+    - !!null 
+    - Control, communications & signal processing
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 63
+    - Physiological Control Systems
+    - '2011-09-21 02:27:33.610444'
+    - '2011-09-21 02:27:33.610444'
+    - MIE331H1
+    - S
+    - 47
+    - ! 'The purpose of this course is to provide undergraduate engineering students
+      with an introduction to physiological concepts and selected physiological control
+      systems present in the human body. Due to the scope and complexity of this field,
+      this course will not cover all physiological control systems but rather a selected
+      few such as the neuromuscular, cardiovascular, and endocrine control systems.
+      This course will also provide an introduction to the structures and mechanisms
+      responsible for the proper functioning of these systems. This course will combine
+      linear control theory, physiology, and neuroscience with the objective of explaining
+      how these complex systems operate in a healthy human body. The first part of
+      the course will provide an introduction into physiology and give an overview
+      of the main physiological systems. The second part of the course will focus
+      on the endocrine system and its subsystems, including glucose regulation, thyroid
+      metabolic hormones, and the menstrual cycle. The third part of the course will
+      include discussion on the cardiovascular system and related aspects such as
+      cardiac output, venous return, control of blood flow by the tissues, and nervous
+      regulation of circulation. The fourth and final section of the course will focus
+      on the central nervous system, the musculoskeletal system, proprioception, kinaesthetic,
+      and control of voluntary motion. '
+    - CHE353H1F
+    - !!null 
+    - 3.0
+    - 1.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Control, communications & signal processing $ Science/math electives
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 64
+    - Computer Networks I
+    - '2011-09-21 02:27:33.745250'
+    - '2011-09-21 02:27:33.745250'
+    - ECE361H1
+    - B
+    - 5
+    - ! 'Layered network architectures; overview of TCP/IP protocol suite. Introduction
+      to sockets; introduction to application layer protocols. Peer-to-Peer Protocols:
+      ARQ; TCP reliable stream service; flow control. Data Link Controls: Framing;
+      PPP; HDLC. Medium access control and LANs: Aloha; Ethernet; Wireless LANs; Bridges.
+      Packet Switching: Datagram and virtual circuit switching; Shortest path algorithms;
+      Distance vector and link state algorithms.'
+    - STA286H1 S or ECE302H1 F/S
+    - ECE302H1 F/S. (Students must take the co-requisite, ECE302H1 F/S in the same
+      term as ECE361H1 F/S, OR in a term before taking ECE361H1 F/S.)
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Computer hardware & computer networks
+    - Kernel
+    - !!null 
+    - upper
+  - - 65
+    - Internetworking
+    - '2011-09-21 02:27:33.933436'
+    - '2011-09-21 02:27:33.933436'
+    - ECE461H1
+    - F
+    - 56
+    - ! 'This course will cover the fundamentals of protocols for packet switching
+      networks with emphasis on Internet type of networks including the following
+      topics: the Internetworking concept and architectural model; data link layer
+      (Ethernet and PPP); service interface; Internet addresses; address resolution
+      protocol; Internet protocol (connectionless datagram delivery); routing IP datagrams;
+      Internet control message protocol (error and control messages); subnet and supernet
+      address extensions; ping program; traceroute program; user datagram protocol;
+      reliable stream transport service (TCP); the socket interface; routing (GGP,
+      EGP, IP, OSPF, HELLO); Internet multicasting; domain name system; applications
+      such as HTTP, electronic mail, and SNMP; Internet security and firewall design;
+      Ipv6, RSVP, flows, and ISIP.'
+    - ECE361H1 F/S
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Computer hardware & computer networks $ Software
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 66
+    - Computer Architecture
+    - '2011-09-21 02:27:34.087410'
+    - '2011-09-21 02:27:34.087410'
+    - ECE552H1
+    - F
+    - 5
+    - ! 'Performance analysis and metrics and cost. Instruction set architectures.
+      Instruction-level parallelism: pipelining, superscalar, dynamic scheduling,
+      VLIW processors.  Data-level prallelism:  vector processors, GPUs.  Thread-level
+      parallelism: multiprocessors, multi-core, coherence, simultaneous multi-threading.  Memory
+      hierarchies: caches and virtual memory support.  Simulation tools and methods.  Limited
+      Enrollment.'
+    - ECE243H1 S or ECE352H1 F
+    - !!null 
+    - 3.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Computer hardware & computer networks
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 67
+    - Computer Hardware
+    - '2011-09-21 02:27:34.240947'
+    - '2011-09-21 02:27:34.240947'
+    - ECE342H1
+    - S
+    - 5
+    - Arithmetic circuits, cubical representation of logic functions, digital system
+      design, timing analysis, design of asynchronous circuits, testing of logic circuits.
+    - ECE241H1 F and ECE243H1 S
+    - !!null 
+    - 3.0
+    - 3.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Computer hardware & computer networks
+    - Kernel
+    - !!null 
+    - upper
+  - - 68
+    - Computer Networks II
+    - '2011-09-21 02:27:34.388187'
+    - '2011-09-21 02:27:34.388187'
+    - ECE466H1
+    - S
+    - 5
+    - ! 'Traffic modeling; network calculus; traffic classification; traffic regulation:
+      shaping, filtering, policing, leaky bucket; queueing systems; scheduling; quality
+      of service: Diffserv and IntServ/RSVP; multi-protocol label switching; call
+      admission control / congestion control; switching; pricing; optical networks.'
+    - ECE361H1 F/S
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Computer hardware & computer networks
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 69
+    - Operating Systems
+    - '2011-09-21 02:27:34.757750'
+    - '2011-09-21 02:27:34.757750'
+    - ECE344H1
+    - B
+    - 6
+    - Operating system structures, concurrency, synchronization, deadlock, CPU scheduling,
+      memory management, file systems. The laboratory exercises will require implementation
+      of part of an operating system.
+    - ECE244H1 F and ECE243H1 S
+    - !!null 
+    - 3.0
+    - 3.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Software
+    - Kernel
+    - ECE353H1 S
+    - upper
+  - - 70
+    - Algorithms and Data Structures
+    - '2011-09-21 02:27:34.889772'
+    - '2011-09-21 02:27:34.889772'
+    - ECE345H1
+    - B
+    - 6
+    - Design and analysis of algorithms and data structures that are essential to
+      engineers in every aspect of the computer hardware and software industry. Review
+      of background material (recurrences, asymptotics, summations, trees and graphs).
+      Sorting, search trees and balanced search trees, amortized analysis, hash functions,
+      dynamic programming, greedy algorithms, basic graph algorithms, minimum spanning
+      trees, shortest paths, introduction to NP completeness.
+    - ECE244H1 F
+    - !!null 
+    - 3.0
+    - 0.0
+    - 2.0
+    - ECE
+    - !!null 
+    - Software
+    - Kernel
+    - !!null 
+    - upper
+  - - 71
+    - Programming Languages
+    - '2011-09-21 02:27:35.090432'
+    - '2011-09-21 02:27:35.090432'
+    - CSC326H1
+    - F
+    - 6
+    - Study of programming styles and paradigms. Included are object-oriented scripting
+      functional and logic-based approaches. Languages that support these programming
+      styles will be introduced. Languages treated include Python, Lisp or Scheme
+      and Prolog.
+    - !!null 
+    - !!null 
+    - 2.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Software
+    - Technical Elective
+    - CSC324H1 F
+    - upper
+  - - 72
+    - Introduction to Databases
+    - '2011-09-21 02:27:35.253965'
+    - '2011-09-21 02:27:35.253965'
+    - CSC343H1
+    - B
+    - 6
+    - ! 'Introduction to database management systems. The relational data model. Relational
+      algebra. Querying and updating databases: the query language SQL. Application
+      programming with SQL. Integrity constraints, normal forms, and database design.
+      Elements of database system technology: query processing, transaction management.'
+    - ! 'CSC165H1/CSC240H1/MAT137Y1/MAT157Y1; CSC207H1; CGPA 3.0/enrolment in a CSC
+      subject POSt. Prerequisite for Engineering students only: ECE345/CSC190/CSC192'
+    - !!null 
+    - 2.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Software
+    - Technical Elective
+    - CSC434H1.
+    - upper
+  - - 73
+    - Computer Graphics
+    - '2011-09-21 02:27:35.373305'
+    - '2011-09-21 02:27:35.373305'
+    - CSC418H1
+    - B
+    - 6
+    - Identification and characterization of the objects manipulated in computer graphics,
+      the operations possible on these objects, efficient algorithms to perform these
+      operations, and interfaces to transform one type of object to another. Display
+      devices, display data structures and procedures, graphical input, object modelling,
+      transformations, illumination models, primary and secondary light effects; graphics
+      packages and systems. Students, individually or in teams, implement graphical
+      algorithms or entire graphics systems.
+    - ! 'CSC336H1/CSC350H1/CSC351H1/CSC363H1/CSC364H1/CSC365H1/CSC373H1/CSC375H1/CSC378HI/CSC463H1,
+      MAT137Y1, CSC209H1/proficiency in C or C++ ; CGPA 3.0/enrolment in a CSC subject
+      POSt. Prerequisite for Engineering students only: ECE345 or ECE352'
+    - !!null 
+    - 2.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Software
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 74
+    - Software Engineering I
+    - '2011-09-21 02:27:35.528704'
+    - '2011-09-21 02:27:35.528704'
+    - CSC444H1
+    - F
+    - 6
+    - The software development process. Software requirements and specifications.
+      Software design techniques. Techniques for developing large software systems;
+      CASE tools and software development environments. Software testing, documentation
+      and maintenance.
+    - ECE344H1 F/S or ECE353H1 S
+    - !!null 
+    - 2.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Software
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 75
+    - Compilers and Interpreters
+    - '2011-09-21 02:27:35.702126'
+    - '2011-09-21 02:27:35.702126'
+    - CSC467H1
+    - F
+    - 6
+    - Compiler organization, compiler writing tools, use of regular expressions, finite
+      automata and context-free grammars, scanning and parsing, runtime organization,
+      semantic analysis, implementing the runtime model, storage allocation, code
+      generation.
+    - ECE352H1F
+    - !!null 
+    - 2.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Software
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 76
+    - Biocomputation
+    - '2011-09-21 02:27:35.860154'
+    - '2011-09-21 02:27:35.860154'
+    - ECE448H1
+    - F
+    - 67
+    - New technologies in molecular and cellular biology have allowed the collection
+      of unprecedented amounts of biological data ranging from sequences to protein
+      structures to gene expression. The need to synthesize knowledge from this abundant
+      data is driving the convergence of the biological and computer sciences. This
+      course will introduce the fundamental concepts and challenges in molecular biology
+      and the computational and statistical approaches applied to model and address
+      them. Course topics include basic concepts in molecular and structural biology,
+      sequence-based algorithms (such as pairwise and multiple sequence alignment,
+      statistical models), structure-based algorithms (such as energy models, homology
+      modeling, threading), and systems biology algorithms (such as hierarchal and
+      neural network clustering).
+    - !!null 
+    - !!null 
+    - 3.0
+    - 0.0
+    - 2.0
+    - ECE
+    - !!null 
+    - Software $ Science/math electives
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 77
+    - Computer Systems Programming
+    - '2011-09-21 02:27:36.010664'
+    - '2011-09-21 02:27:36.010664'
+    - ECE454H1
+    - F
+    - 6
+    - This course teaches fundamental techniques for programming computer systems,
+      with an emphasis on obtaining good performance. The course will focus on system
+      behaviour and operation, covering important concepts such as finite precision
+      number representations, manipulation of bits and bytes at a low level, program
+      operation at the machine level, memory allocation and management, the use of
+      memory hierarchy for good performance, measuring and optimizing program performance.
+      The course will also cover other selected advanced topics in programming techniques.
+      Students will gain hands-on experience in a variety of topics and programming
+      environments, and a deeper understanding of how to program computer systems
+      for high performance and efficiency.
+    - !!null 
+    - !!null 
+    - 3.0
+    - 3.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Software
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 78
+    - Distributed Systems
+    - '2011-09-21 02:27:36.153995'
+    - '2011-09-21 02:27:36.153995'
+    - ECE419H1
+    - S
+    - 6
+    - ! 'Design issues in distributed systems: heterogeneity, security, transparency,
+      concurrency, fault-tolerance; networking principles; request-reply protocol;
+      remote procedure calls; distributed objects; middleware architectures; CORBA;
+      security and authentication protocols; distributed file systems; name services;
+      global states in distributed systems; coordination and agreement; transactions
+      and concurrency control; distributed transactions; replication.'
+    - ECE344H1 F/S or ECE353H1 S
+    - !!null 
+    - 3.0
+    - 1.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Software
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 79
+    - Software Engineering II
+    - '2011-09-21 02:27:36.310455'
+    - '2011-09-21 02:27:36.310455'
+    - ECE450H1
+    - S
+    - 6
+    - A continuation of the material introduced in Software Engineering I, focusing
+      on pragmatic structuring principles and design methodologies. Formal specification
+      and validation of software systems. Object-oriented design and design patterns.
+      Testing, metrics and maintenance of software systems. Reverse engineering. Safety-critical
+      and real-time software systems. Emphasis is given to the design and development
+      of large, complex software systems. A session project is normally required.
+    - CSC444H1 F
+    - !!null 
+    - 3.0
+    - 3.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Software
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 80
+    - Optimizing Compilers
+    - '2011-09-21 02:27:36.501333'
+    - '2011-09-21 02:27:36.501333'
+    - ECE540H1
+    - S
+    - 6
+    - ! 'Theoretical and practical aspects of building modern optimizing compilers.
+      Topics: intermediate representations, basic blocks and flow graphs, data flow
+      analysis, partial evaluation and redundancy elimination, loop optimizations,
+      register allocation, instruction scheduling, interprocedural memory hierarchy
+      optimizations. Students will implement significant optimizations within the
+      framework of a modern research compiler. Experience in C programming required.'
+    - !!null 
+    - !!null 
+    - 2.0
+    - 3.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Software
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 81
+    - Computer Security
+    - '2011-09-21 02:27:36.678138'
+    - '2011-09-21 02:27:36.678138'
+    - ECE568H1
+    - S
+    - 6
+    - As computers permeate our society, the security of such computing systems is
+      becoming of paramount importance. This course covers principles of computer
+      systems security. To build secure systems, one must understand how attackers
+      operate. This course starts by teaching students how to identify security vulnerabilities
+      and how they can be exploited. Then techniques to create secure systems and
+      defend against such attacks will be discussed. Industry standards for conducting
+      security audits to establish levels of security will be introduced. The course
+      will include an introduction to basic cryptographic techniques as well as hardware
+      used to accelerate cryptographic operations in ATM's and webservers.
+    - ECE344H1 F/S or ECE353H1 S
+    - !!null 
+    - 3.0
+    - 3.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Software
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 82
+    - Partial Differential Equations
+    - '2011-09-21 02:27:36.848960'
+    - '2011-09-21 02:27:36.848960'
+    - APM384H1
+    - F
+    - 7
+    - Boundary value problems and Sturm-Liouville theory for ordinary differential
+      equations. Partial differential equations of first order, characteristics,Hamilton-Jacobi
+      theory. Diffusion equations; Laplace transform methods. Harmonic functions,
+      Green's functions for Laplace's equation, surface and volume distributions;
+      Fourier transforms. Wave equation, characteristics; Green's functions for the
+      wave equation; Huygens principle.
+    - !!null 
+    - !!null 
+    - 3.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Science/math electives
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 83
+    - Cellular and Molecular Bioengineering II
+    - '2011-09-21 02:27:37.004697'
+    - '2011-09-21 02:27:37.004697'
+    - BME455H1
+    - F
+    - 7
+    - ! 'Quantitative approach to understanding cellular behaviour. Using engineering
+      tools (especially derived from transport phenomena and chemical kinetics) to
+      integrate and enhance what is known about mammalian cell behaviour at the molecular
+      level. The course combines mathematical modeling with biology and includes numerical
+      methods, factorial design, statistics, empirical models, mechanistic models
+      and mass transfer. Specific topics include: receptor-ligand interactions, cell
+      adhesion and migration, signal transduction, cell growth and differentiation.
+      Examples from gene therapy, and cellular and tissue engineering are used. '
+    - CHE353H1 and CHE354H1
+    - !!null 
+    - 3.0
+    - 1.5
+    - 1.0
+    - ECE
+    - !!null 
+    - Science/math electives
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 84
+    - Engineering Biology
+    - '2011-09-21 02:27:37.178190'
+    - '2011-09-21 02:27:37.178190'
+    - CHE353H1
+    - F
+    - 7
+    - ! 'Using a quantitative, problem solving approach, this course will introduce
+      basic concepts in cell biology and physiology.  Various engineering modelling
+      tools will be used to investigate aspects of cell growth and metabolism, transport
+      across cell membranes, protein structure, homeostasis, nerve conduction and
+      mechanical forces in biology. '
+    - !!null 
+    - !!null 
+    - 3.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Science/math electives
+    - Technical Elective
+    - BME105H1
+    - upper
+  - - 85
+    - Urban Engineering Ecology
+    - '2011-09-21 02:27:37.317671'
+    - '2011-09-21 02:27:37.317671'
+    - CIV220H1
+    - F
+    - 7
+    - Core Course in the Environmental Engineering Minor Basic concepts of ecology
+      within the context of urban environments. Response of organisms, populations,
+      dynamic predator-prey and competition processes, and ecosystems to human activities.
+      Thermodynamic basis for food chains, energy flow, biodiversity and ecosystem
+      stability. Biogeochemical cycles, habitat fragmentation and bioaccumulation.
+      Introduction to industrial ecology and life cycle assessment principles. Urban
+      metabolism and material flow analysis of cities. Response of receiving waters
+      to pollution and introduction to waste water treatment. Emphasis is on identifying
+      the environment/engineering interface and minimizing environmental impacts.
+    - CHE112H1.
+    - !!null 
+    - 3.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Science/math electives
+    - Technical Elective
+    - EDV220H1
+    - upper
+  - - 86
+    - Terrestrial Energy Systems
+    - '2011-09-21 02:27:37.466572'
+    - '2011-09-21 02:27:37.466572'
+    - CIV300H1
+    - B
+    - 7
+    - Core Course in the Sustainable Energy Minor Various earth systems for energy
+      transformation, storage and transport are explored. Geological, hydrological,
+      biological, cosmological and oceanographic energy systems are considered in
+      the context of the Earth as a dynamic system, including the variation of solar
+      energy received by the planet and the redistribution of this energy through
+      various radiative, latent and sensible heat transfer mechanisms. It considers
+      the energy redistribution role of large scale atmospheric systems, of warm and
+      cold ocean currents, the role of the polar regions, and the functioning of various
+      hydrological systems. The contribution and influence of tectonic systems on
+      the surface systems is briefly introduced, as well the important role of energy
+      storage processes in physical and biological systems, including the accumulation
+      of fossil fuel reserves.
+    - !!null 
+    - !!null 
+    - 3.0
+    - 0.0
+    - 2.0
+    - ECE
+    - !!null 
+    - Science/math electives
+    - Technical Elective
+    - EDV300H1.
+    - upper
+  - - 87
+    - Complex Analysis
+    - '2011-09-21 02:27:37.618298'
+    - '2011-09-21 02:27:37.618298'
+    - MAT389H1
+    - F
+    - 7
+    - ! 'Course examines the following: analytic functions, Cauchy-Reimann equations,
+      contour integration, Cauchy''s theorem, Taylor and Laurent series, singularities,
+      residue calculus, conformal mapping, harmonic functions, Dirichlet and Neumann
+      problems and Poisson integral formulas. Course includes studies of linear differential
+      equations in the complex plane, including Bessel and Legendre functions.'
+    - !!null 
+    - !!null 
+    - 3.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Science/math electives
+    - Technical Elective
+    - MAT290H1F
+    - upper
+  - - 88
+    - Biomedical Engineering Technology and Investigation
+    - '2011-09-21 02:27:37.774124'
+    - '2011-09-21 02:27:37.774124'
+    - BME440H1
+    - S
+    - 7
+    - An introduction to the principles of fundamental technologies used in biomedical
+      engineering research including but not limited to tissue culture, protein assays
+      or colourimetric enzymatic-based assays, spectroscopy, fluorescence microscopy,
+      PCR, electrophoresis, DNAmanipulation and transfection. Since these technologies
+      enable theinvestigation of a wide range of research questions with importantclinical
+      implications, the main focus of the course is learning thesetechnologies while
+      subsequent application within the lab will allowevidence-based investigation
+      into specific research questions.Scientific literature (both good and bad) pertaining
+      to each technologywill be reviewed as examples of conducting investigations.
+    - CHE353H1F, Engineering Biology
+    - !!null 
+    - 2.0
+    - 4.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Science/math electives
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 89
+    - Environmental Chemistry
+    - '2011-09-21 02:27:37.916728'
+    - '2011-09-21 02:27:37.916728'
+    - CHE230H1
+    - S
+    - 7
+    - The chemical phenomena occurring in environmental systems are examined based
+      on fundamental principles of organic, inorganic and physical chemistry. The
+      course is divided into sections describing the chemistry of the atmosphere,
+      natural waters and soils. The principles applied in the course include reaction
+      kinetics and mechanisms, complex formation, pH and solubility equilibria and
+      adsorption phenomena. Molecules of biochemical importance and instrumental methods
+      of analysis relevant to environmental systems are also addressed. (formerly
+      EDC230H1S)
+    - !!null 
+    - !!null 
+    - 3.0
+    - 0.0
+    - 2.0
+    - ECE
+    - !!null 
+    - Science/math electives
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 90
+    - Cellular and Molecular Biology
+    - '2011-09-21 02:27:38.059946'
+    - '2011-09-21 02:27:38.059946'
+    - CHE354H1
+    - S
+    - 7
+    - ! 'Using a quantitative, problem solving approach, this course will introduce
+      basic concepts in cell biology and physiology.  Various engineering modelling
+      tools will be used to investigate aspects of cell growth and metabolism, transport
+      across cell membranes, protein structure, homeostasis, nerve conduction and
+      mechanical forces in biology. '
+    - CHE353H1F
+    - !!null 
+    - 3.0
+    - 0.0
+    - 2.0
+    - ECE
+    - !!null 
+    - Science/math electives
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 91
+    - Evolution and Adaptation
+    - '2011-09-21 02:27:38.202971'
+    - '2011-09-21 02:27:38.202971'
+    - EEB214H1
+    - S
+    - 7
+    - ! 'Evolution and adaptation through natural selection. Concepts and application
+      based on faunal life goals of habitat survival, food acquisition, predator avoidance,
+      and reproduction. Topics include: speciation, mutation, co-evolution, symbiosis,
+      pollination, cannibalism, parasitism, eusociality, and sexual and parental conflict.
+      Essays, debates, and reading required.'
+    - !!null 
+    - !!null 
+    - 2.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Science/math electives
+    - Technical Elective
+    - BIO120H1/BIO150Y1/ZOO214Y1/ZOO324Y1
+    - upper
+  - - 92
+    - Materials Physics
+    - '2011-09-21 02:27:38.384639'
+    - '2011-09-21 02:27:38.384639'
+    - MSE235H1
+    - S
+    - 7
+    - ! 'Application of solid state physics to describe properties of materials. Thermal
+      properties of solids: lattice vibrations (phonons), heat capacity, thermal conductivity.
+      Electrical properties of metals: simple circuits, resistivity of metals (classical
+      and quantum descriptions), Seebeck, Peltier, and Thomson effects. Electrical
+      properties of semiconductors: band structure and occupancy, conductivity, Hall
+      effect, simple devices. Electrical properties of insulators: polarization, capacitance,
+      optical properties, ferroelectric and piezoelectric materials. Magnetic properties:
+      diamagnetism and paramagnetism, ferromagnetic and ferrimagnetic materials, magnetic
+      domains, B-H curves.'
+    - !!null 
+    - !!null 
+    - 3.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Science/math electives
+    - Technical Elective
+    - !!null 
+    - upper
+  - - 93
+    - Physics of the Earth
+    - '2011-09-21 02:27:38.530613'
+    - '2011-09-21 02:27:38.530613'
+    - PHY395H1
+    - S
+    - 7
+    - Designed for students interested in the physics of the Earth and the planets.
+      Study of the Earth as a unified dynamic system; determination of major internal
+      divisions in the planet; development and evolution of the Earths large scale
+      surface features through plate tectonics; the age and thermal history of the
+      planet; Earths gravitational field and the concept of isostasy; mantle rheology
+      and convection; Earth tides; geodetic measurement techniques, in particular
+      modern space-based techniques. (formerly PHY359H1)
+    - PHY152H1/PHY254H1, MAT235Y1/MAT237Y1, MAT244H1 (Or permission of instructor)
+    - !!null 
+    - 2.0
+    - 0.0
+    - 1.0
+    - ECE
+    - !!null 
+    - Science/math electives
+    - Technical Elective
+    - PHY359H1
+    - upper
+  - - 94
+    - Theoretical Physiology
+    - '2011-09-21 02:27:38.685756'
+    - '2011-09-21 02:27:38.685756'
+    - PSL432H1
+    - S
+    - 7
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2.0
+    - 0.0
+    - 0.0
+    - ECE
+    - !!null 
+    - Science/math electives
+    - Technical Elective
+    - !!null 
+    - upper
+
+---
+users:
+  columns:
+  - id
+  - user_id
+  - name
+  - email
+  - created_at
+  - updated_at
+  - encrypted_password
+  - salt
+  - dob
+  - admin
+  records: 
+---
+  - - 1
+    - !!null 
+    - Wasi Ahmed
+    - wasi.cjr@gmail.com
+    - '2011-09-21 02:28:34.832521'
+    - '2011-09-21 02:28:44.023223'
+    - 0157f9dd0335d22432265669171fc111c697e351736c188559b33b2adf24802d
+    - b58805fa5e54d4338afb2df749f7de15338f008fd13ee053a21fa6b0cf9f48fc
+    - !!null 
+    - true

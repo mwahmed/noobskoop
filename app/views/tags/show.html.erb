@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+
+<h1> <%= @t.name %> </h1>
+<p>
+	<%= link_to 'Main Page', '/years' %>
+	<%= link_to 'Tags', '/tags' %>
+</p>
+	<h4> ------------------------------------------------</h4>
+<% @t_array.each do |t| %>
+	<p>
+	<% if @d = DThread.find(t.d_thread_id) %>	
+		<%= link_to "#{@d.title} ", @d %>
+		<%= @d.question %>
+	</p>
+	
+	<p>	
+		<% @tg = Tag.where(:d_thread_id => @d.id) %> 			
+		<% @tg.each do |t| %>
+			<%= link_to "#{t.name}", t %>
+		<% end %>
+	<% end %>
+	</p>
+	<h4> ------------------------------------------------</h4>
+<% end %>
+

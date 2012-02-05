@@ -1,0 +1,32 @@
+<%= div_for reply do %>
+
+  <h3>
+    <%= reply.author %> said:
+    <% if ((current_user.id == reply.user_id) || (current_user.id == DThread.find(reply.d_thread_id).user_id)) %>
+		  <span class='actions'>
+		  	<%= link_to 'Delete', [@t, reply], :confirm => 'Are you sure?', :method => :delete %>
+		  </span>
+    <% end %>
+  </h3>
+<table>
+<tr>
+  <td><%= reply.body %></td>
+  <% if signed_in? %>
+  <td>
+  		<%= link_to 'Like', "/like_d_thread_reply/#{reply.d_thread_id}/#{current_user.id}/#{reply.id}/like" %> 
+			<%= link_to 'Dislike', "/like_d_thread_reply/#{reply.d_thread_id}/#{current_user.id}/#{reply.id}/dislike" %>
+	</td>
+	<%end%>
+
+	<% @likes = @dislikes = 0 %>
+	<% reply.d_thread_reply_ratings.each do |r| %>
+		<% @likes +=1 if r.likes == 1 %> 
+		<% @dislikes +=1 if r.likes == -1 %>
+	<% end %> 
+ <td> <%="Likes : #{@likes}, Dislikes : #{@dislikes}"%> </td>
+</tr>
+
+</table>
+<hr></hr>
+<% end %>
+

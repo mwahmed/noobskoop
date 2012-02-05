@@ -1,0 +1,48 @@
+<div>
+  <b class="eceftw">
+  <b class="eceftw1"><b></b></b>
+  <b class="eceftw2"><b></b></b>
+  <b class="eceftw3"></b>
+  <b class="eceftw4"></b>
+  <b class="eceftw5"></b></b>
+
+  <div class="eceftwfg">
+  </div>
+<h1>Edit information of <%= @user.name %></h1>
+  <b class="eceftw">
+  <b class="eceftw5"></b>
+  <b class="eceftw4"></b>
+  <b class="eceftw3"></b>
+  <b class="eceftw2"><b></b></b>
+  <b class="eceftw1"><b></b></b></b>
+</div>
+
+<br />
+
+<%= form_for(@user) do |f| %>
+  <%= render 'shared/error_messages', :object => f.object %>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :password %><br />
+    <%= f.password_field :password %>
+  </div>
+  <div class="field">
+    <%= f.label :password_confirmation, "Confirm Password" %><br />
+    <%= f.password_field :password_confirmation %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Update" %>
+  </div>
+<% end %>
+
+<div>
+  <%= gravatar_for @user %>
+  <a href="http://gravatar.com/emails">change</a>
+</div>

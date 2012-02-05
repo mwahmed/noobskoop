@@ -1,0 +1,77 @@
+<h1>Discussion Board</h1>
+
+<p> <%= link_to 'New Question', new_d_thread_path %> </p>
+<p> <%= link_to 'View all Courses', '/courses/' %> </p>
+
+<h3> <%= link_to 'First Year Courses', @y[0] %> </h3>
+<table width = "1000">
+	<% @j = @c1F.size > @c1S.size ? @c1F.size : @c1S.size %>
+	<% @i = 0 %>
+	<% while @i < @j %>	 
+  <tr> 	
+    	<th style="width: 500px;">
+    	<% if @c1F[@i] %>
+    		<%= link_to @c1F[@i].courseCode, @c1F[@i] %> : <%= @c1F[@i].title %>
+   		<%	end %>
+   		</th>
+   	
+   		<th style="width: 500px;">
+   		<% if @c1S[@i] %>
+   			<%= link_to @c1S[@i].courseCode, @c1S[@i] %> : <%= @c1S[@i].title %>
+   		<% end %>	
+  		</th>
+	<% @i +=1 %>
+  </tr>
+  <% end %>
+</table>
+
+
+<h3> <%= link_to 'Second Year Courses', @y[1] %> </h3>
+<table width = "1000">
+	<% @j = @c2F.size > @c2S.size ? @c2F.size : @c2S.size %>
+	<% @i = 0 %>
+	<% while @i < @j %>	 
+  <tr> 	
+    	<th style="width: 500px;">
+    	<% if @c2F[@i] %>
+    		<%= link_to @c2F[@i].courseCode, @c2F[@i] %> : <%= @c2F[@i].title %>
+   		<%	end %>
+   		</th>
+   	
+   		<th style="width: 500px;">
+   		<% if @c2S[@i] %>
+   			<%= link_to @c2S[@i].courseCode, @c2S[@i] %> : <%= @c2S[@i].title %>
+   		<% end %>	
+  		</th>
+	<% @i +=1 %>
+  </tr>
+  <% end %>
+</table>
+
+<h2> <%= "Upper Year Courses" %></h2>
+<% for k in 0..6 %>
+
+	<% if k != 6 %>
+		<h3><%= link_to "Area #{k + 1}", "area/#{k+1}" %></h3>
+	<% else %>
+		<h3><%= link_to 'Math and Science Electives', 'area/7' %></h3>
+	<% end %>
+	<table width = "1000">
+	<% @j = @cUF[k].size > @cUS[k].size ? @cUF[k].size : @cUS[k].size %>
+	<% @i = 0 %>
+	<% while @i < @j %>	
+		<tr>
+			<% if @cUF[k][@i] %>
+				<th style = "width: 500px;"><%= link_to @cUF[k][@i].courseCode, @cUF[k][@i] %> : <%= @cUF[k][@i].title %></th>
+			<% end %>
+			<% if @cUS[k][@i] %>
+				<th style = "width: 500px;"><%= link_to @cUS[k][@i].courseCode, @cUS[k][@i] %> : <%= @cUS[k][@i].title %></th>
+			<% end %>
+		</tr>
+	<% @i += 1	%>
+	<%end%>
+	</table>
+<%end%>
+
+
+

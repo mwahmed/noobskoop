@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<% if Integer(@y) == 1 %>
+	<h2> <%= "First Year Discussion Board" %> </h2>
+		  
+<% elsif Integer(@y) == 2 %>
+	<h2> <%= "Second Year Discussion Board" %> </h2>
+		 		 
+<% else %>
+		
+<% end %>
+		
+<p>
+	<%= link_to 'New Thread', new_d_thread_path %>
+	<%= link_to 'Back', '/years' %>	
+</p>
+<% @d.each do |i| %>
+	<p><%= link_to i.title, i %> : <%= i.question %> </p>
+<% end %>

@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<% if @a < 7 %>
+	<h1><%= "Area #{@a}" %></h1>
+
+<% elsif @a == 7 %>
+	<h1><%= "Math and Science Electives" %></h1>	
+<%end%>
+
+<p>
+	<%= link_to 'New Thread', new_d_thread_path %>
+	<%= link_to 'Back', '/years' %>	
+</p>
+
+<% @d.each do |i| %>
+	<p><%= link_to i.title, i %> : <%= i.question %> </p>
+<% end %>

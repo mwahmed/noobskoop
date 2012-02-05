@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="robots" content="index, follow" />
+        <meta name="verify-v1" content="CNak37K+XvCkWFoLyLnlmuUQ1MHK1owsvQhZF1Em/lk=" />
+        <meta name="description" content="sideroad , im making jQuery plugin , web application." />
+        <meta name="keywords" content="sideroad ,jQuery Plugin , Web application" />
+        <meta name="author" content="sideroad" />
+        <link rel="contents" href="index.html" />
+        <link rel="index" href="index.html" />
+        <link rel="start" href="index.html" />
+        
+        <title>Error occured - sideroad</title>
+        <link rel="stylesheet" type="text/css" href="/css/check.css" />
+		<link rel="stylesheet" href="/dp.SyntaxHighlighter/Styles/SyntaxHighlighter.css" type="text/css" charset="Shift_JIS" />  
+        <script type="text/javascript" src="/dp.SyntaxHighlighter/Scripts/shCore.js" charset="Shift_JIS" ></script>
+		<script type="text/javascript" src="/dp.SyntaxHighlighter/Scripts/shBrushJScript.js" charset="Shift_JIS" ></script>  
+        <script type="text/javascript" src="http://www.google-analytics.com/ga.js"></script>
+        <script type="text/javascript" src="/js/jquery.js"></script>
+        <script type="text/javascript" src="/js/jquery-ui-1.7.2.custom.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.textanimation.js"></script>
+        <script type="text/javascript" src="/js/jquery.ajaxhref.js"></script>
+        <script type="text/javascript" src="/js/sideroad.secret.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="head"></div>
+            <div id="body" class="contents" >
+            	<h1>Page Not Found - 404</h1>
+            </div>
+            <div id="foot"></div>
+        </div>
+    </body>
+</html>

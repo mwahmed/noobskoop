@@ -1,0 +1,36 @@
+
+<%= form_for([@t, @t.replies.new]) do |f| %>
+  
+  <% if @c = current_user %>
+	
+<h2>
+</br>
+Add Answer:
+</h2><h3>
+</br>
+<%= gravatar_for @c %>
+<%= "#{@c.name}" %>
+	        
+
+</h3>
+
+		 
+ <% else %>
+	<div class="field">
+		  <%= f.label :author %><br />
+		  <%= f.text_field :author %>		
+			<%= link_to 'login', nil %>
+        </div>
+ <%end%>
+  
+  <div class="field">
+    <%= f.label :body %><br />
+    <%= f.text_area :body %>
+  </div>
+  <div class="actions">
+    <%= f.submit 'Add' %>
+  </div>
+<% end %>
+
+
+<h1>Post Comment</h1>

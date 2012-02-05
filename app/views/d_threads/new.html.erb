@@ -1,0 +1,14 @@
+<% if current_user %>
+
+	<h2> Rules:</h2>
+<h2>What rules should we have?</h2>
+
+<%= link_to "Continue", href="/d_threads/post", :class=>"signup_button round" %>
+
+<% else %>
+	
+	<font color="red">You must be a registered user to ask questions </font> 
+	<p> <%= link_to 'Sign Up', sign_up_path %> </p>
+	<p> <%= link_to 'Login-in', signin_path %> </p>
+
+<%end%>

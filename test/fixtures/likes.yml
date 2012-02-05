@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  d_thread_id: 1
+  likes: 1
+  user_id: MyString
+
+two:
+  d_thread_id: 1
+  likes: 1
+  user_id: MyString

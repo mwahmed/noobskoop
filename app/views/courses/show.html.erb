@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1> <%= "#{@c.courseCode} : #{@c.title}" %> </h1>
+</br>
+
+
+<p> <% link_to "Back", '/years/' %> </p>
+<p> <% link_to "Back to course list", '/courses' %> </p>
+
+<% link_to 'Edit', edit_course_path(@course) %> 
+
+<h3> Some Apps Here </h3>
+<h3> Rate the Prof/course here </h3>
+		
+<p><%= link_to "Calendar Description: #{@c.description[0..99]}...", "/course_description/#{@c.courseCode}" %></p>
+<p><%= "Anti-description : #{@c.antiDescription}" %></p>	
+
+<h1> Questions: </h1>		
+<hr></hr>
+</br>
+<p> <%= link_to 'New Question', new_d_thread_path, :class=>"link_button round"  %> </p>
+
+<h4> Top 5 most recents threads displayed here </h4>
+	<% @t.reverse.each do |t| %>
+		<h3>  
+  	<td><%= link_to t.title, t %></td>
+  			<% if t.question.size > 120 %>
+  			<% 		@dispQ = t.question[0..100] + '...' %> 
+  			<% else @dispQ = t.question %>  	
+  			<% end %>					
+  	<td>      <%= @dispQ %></td> 
+		</h3>
+<hr></hr>
+		
+  <% end %>	
+
+

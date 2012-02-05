@@ -1,0 +1,17 @@
+<% if signed_in? %>
+<% else %>
+</br>
+<h1>Welcome</h1>
+</br>
+<h2> <span></span><a href=/> EngineeringIsGood </a></h2>
+<p> 
+
+</p>
+
+<h3> Feedback/Suggestions? visit <a href=/contactus> here </a></h3>
+</br>
+</br>
+<%= link_to "Sign up now!", sign_up_path, :class=>"signup_button round" %>
+</br>
+
+<% end %>

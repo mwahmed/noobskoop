@@ -1,0 +1,109 @@
+
+<h1>Welcome to the Engineering chat room </h1>
+<style type="text/css">
+.display
+{
+
+width:300px;
+height:500px;
+
+}
+</style>
+<div class="display" style="overflow:auto" >
+</div>
+<textarea class="chat" rows="100" cols="75">
+</textarea>
+<input type="button" value="Send" onclick="postCode()">
+
+
+
+<script type="text/javascript">
+var count=0;
+var ar=new Array();
+var user='<%= current_user.name %>'
+jQuery(function($)
+{
+
+$.ajaxSetup({
+        beforeSend: function (xhr) {
+                xhr.setRequestHeader("Accept", "text/javascript, text/html, application/xml, text/xml, */*");
+        }
+    });
+
+});
+
+
+function getCode()
+{
+$.ajaxSetup({
+        beforeSend: function (xhr) {
+                xhr.setRequestHeader("Accept", "text/javascript, text/html, application/xml, text/xml, */*");
+        }
+    });
+
+$(".display").empty();
+
+$.get
+(
+"http://localhost:3000/chat/update",
+function(data,status)
+{
+$.each(data, function(index, chat)
+{
+	for(var i=0;i<chat.chatmessages.length;i++)
+	{
+	
+     
+	{
+	
+	$(".display").append($("<li></li>").text(chat.chatmessages[i]));
+	}
+	}
+});
+},
+"json"
+)
+
+
+}
+setInterval("getCode()",3000);
+
+function searchArray(i)
+{
+	
+	for(var index=0;index<ar.length;index++)
+		{
+ 		
+		if(i==ar[index])
+		{
+		//alert("False");
+  		return false;
+		}
+		}
+	
+	return true;
+	
+
+}
+
+function postCode()
+{
+var chat=user+" : "+$(".chat").val();
+$.ajax({
+type: "POST",
+url : "http://localhost:3000/chat/message",
+data: {
+	text: chat
+	},
+success: function(msg){
+alert("world");
+}
+});
+
+
+}
+
+</script>
+
+
+

@@ -1,0 +1,38 @@
+<h1>Discussion Board</h1>
+
+<h4> <%= link_to 'Tags', '/tags' %> </h4>
+<%= will_paginate %>
+<% @t.reverse.each do |t| %>
+
+
+<table><tr><td>
+	<h4> Title: <%= link_to t.title, t %>  </br>
+	<strong> Question:  <%= t.question[0..50] %></strong>  </h4>	 
+	
+	<h4>Tags:<% Tag.where(:d_thread_id => t.id).each do |tg| %>
+		 <%= link_to "#{tg.name}" , tg %> </h4> 
+	<% end %>
+<h3>	<%= t.courseCode %> 
+	<%= t.author if t.author %>
+	</h3>
+	<% if Time.now - t.created_at > 3600 %> 
+	
+		Posted on <%= t.created_at.strftime("%A, %B %d") if t.created_at %>
+by
+	<% else %>
+		Posted <%= ((Time.now - t.created_at)/60).to_i %> minutes ago
+ by 
+<% @u = User.find_by_id("#{t.user_id}") %>
+
+<% logo = image_tag(gravatar_for @u, :alt => "Sample App", :class => "round") %> 
+        <%= gravatar_for @u %>
+	  <%= link_to logo, @u %>
+
+
+	<% end %>
+		</td></tr></table>
+	<br />
+<% end %>
+
+
+<%= will_paginate %>

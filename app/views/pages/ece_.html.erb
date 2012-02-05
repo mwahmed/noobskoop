@@ -1,0 +1,7 @@
+<% @course = Ece.where(:course_code => @crsCode.upcase).first %>
+<h1> <%=  @course.name  %> </h1>
+<%= link_to "#{@course.name} Description", Ece.where(:course_code => @course.course_code).first, :class=>"question_button round" %>
+
+<p><%= link_to "Forum"  , Course.where(:courseCode => @course.course_code).first, :class=>"question_button round" %>
+
+<h3> Some apps, and other stuff here... </h3> 

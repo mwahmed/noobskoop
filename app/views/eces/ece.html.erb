@@ -1,0 +1,32 @@
+<% form_tag check_course_path, :method => 'get' do %>
+<p>
+    <%= text_field_tag :course, params[:course] %>
+    <%= submit_tag "Go To Course", :name => nil %>
+<br />
+    example: ECE361
+</p>
+  <% end %>
+
+
+<h1>ECE @ uoft</h1>
+<table>
+  <tr>
+    <th>Website</th>
+    <th>Undergraduate office</th>
+    <th>Email</th>
+    <th>Phone</th>
+  </tr>
+
+  <tr>
+    <td> <a href="http://www.ece.utoronto.ca/">www.ece.utoronto.ca/</td>
+    <td> Room SFB600</td>
+    <td>askece@ecf.utoronto.ca</td>
+    <td>416-978-0488</td>
+  </tr>
+</table>
+
+
+
+<p>The following ece courses provide discussion forums, course ratings, comments/suggestions from previous students, past papers and chat rooms. </br>
+Please visit a specific course for more details </p>
+

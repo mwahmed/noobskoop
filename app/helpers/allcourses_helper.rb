@@ -1,0 +1,2 @@
+module AllcoursesHelper
+end

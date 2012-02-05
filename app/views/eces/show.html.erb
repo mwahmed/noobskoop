@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+<h1>
+  <%= @ece.name %>
+</h1>
+<p>
+  <b>Description:</b>
+  <%= @ece.description %>
+</p>
+
+
+<table>
+  <tr>
+    <th>Area</th>
+    <th>Prerequisites</th>
+    <th>Lecturehours</th>
+    <th>Labhours</th>
+    <th>Tutorialhours</th>
+  </tr>
+
+  <tr>
+    <td><%= @ece.Area %></td>
+    <td><%= @ece.Prerequisites %></td>
+    <td><%= @ece.Lecturehours %></td>
+    <td><%= @ece.Labhours %></td>
+    <td><%= @ece.Tutorialhours %></td>
+  </tr>
+</table>
+<p> Comments: </p>
+
+
+
+<p><%= link_to "Forum"  , "#{root_path}"+"eces/" + "#{@ece.id}", :class=>"question_button round" %>
+
+<h3>Note: The above information was taken from www.magellan.ece.utoronto.ca</h3>
+
+
+<%= link_to 'Edit', edit_ece_path(@ece) %> |
+<%= link_to 'Back', eces_path %>

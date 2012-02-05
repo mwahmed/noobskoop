@@ -1,0 +1,7 @@
+<h1> Results Found </h1>
+
+<% $result.each do |r| %>
+	<%= link_to "#{r.title}", r %>
+	<%= r.question %>
+	</br>  
+<% end %>

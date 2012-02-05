@@ -1,0 +1,10 @@
+<%= div_for d_thread do %>
+  <h3>
+    <%= link_to d_thread.title, d_thread %>
+    <span class='actions'>
+      <%= link_to "Edit", edit_d_thread_path(article) %>
+      <%= link_to "Delete", d_thread, :confirm => "Are you sure?", :method => :delete %>
+    </span>
+  </h3>
+  <%= d_thread.body %>
+<% end %>

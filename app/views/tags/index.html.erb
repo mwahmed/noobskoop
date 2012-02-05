@@ -1,0 +1,12 @@
+<h1> Tags </h1>
+
+
+<% @t_disp.each do |t| %>
+	<p>
+	<%= link_to "#{t.getName}", "tags/#{Tag.where(:name => t.getName).first.id}" %>
+	<%= t.getList.size %>	
+	</p>
+<%end%>
+
+
+

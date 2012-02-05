@@ -1,0 +1,16 @@
+<h1>Users</h1>
+
+<% form_tag request.path, :method => 'get' do %>
+<p>
+    <%= text_field_tag :query, params[:query] %>
+    <%= submit_tag "Search User", :name => nil %>
+</p>
+  <% end %>
+
+
+<%= will_paginate %>
+<ul class="users">
+  <%= render @users1 %>
+</ul>
+
+<%= will_paginate %>

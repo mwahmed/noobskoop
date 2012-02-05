@@ -1,0 +1,34 @@
+<% if signed_in? %>
+
+<table class="profile" summary="Profile information">
+  <tr>
+    <td class="main">
+      <h1>
+        <%= gravatar_for @user %>
+        <%= @user.name %>
+      </h1>
+</br>
+	<%=render 'follow_form' if signed_in? %>
+</div>
+<br />
+<h2><u2>Questions Asked:</u> </h2>
+<% l = @user.d_threads %>
+<% l.each do |d| %>
+<h3> <%=	link_to "#{d.question}", d %> </h3></br>
+<hr></hr>
+<% end %> 
+    
+</td>
+    <td class="sidebar round">
+      <strong>Name</strong> <a href=<%=@user_path%>> <%=@user.name%></a> </br>
+
+      <strong>Email</strong>  <%= @user.email %>
+      <%= render 'shared/stats' %>	
+<%= link_to "Ask Question!", href="/d_threads/new", :class=>"signup_button round" %>
+</br>
+    </td>
+  </tr>
+</table>
+<% else %>
+<p> Sign in before viewing </p>
+<% end %>

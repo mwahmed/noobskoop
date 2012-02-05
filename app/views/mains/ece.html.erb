@@ -1,0 +1,106 @@
+<% form_tag check_course_path, :method => 'get' do %>
+<p>
+    <%= text_field_tag :course, params[:course] %>
+    <%= submit_tag "Go To Course", :name => nil %>
+<br />
+    example: ECE361
+
+</p>
+  <% end %>
+
+<p>
+<%= link_to "Ask Question", href="/d_threads/new", :class=>"signup_button round" %>
+</p>
+<p>
+<%= link_to "Answer Latest", href="/d_threads", :class=>"question_button round" %>
+</p>
+</br>
+
+</br>
+
+<h1>ECE @ uoft</h1>
+<table>
+  <tr>
+    <th>Website</th>
+    <th>Undergraduate office</th>
+    <th>Email</th>
+    <th>Phone</th>
+  </tr>
+
+  <tr>
+    <td> <a href="http://www.ece.utoronto.ca/">www.ece.utoronto.ca/</td>
+    <td> Room SFB600</td>
+    <td>askece@ecf.utoronto.ca</td>
+    <td>416-978-0488</td>
+  </tr>
+</table>
+
+
+
+<p>The following ece courses provide discussion forums, course ratings, comments/suggestions from previous students, past papers and chat rooms. </br>
+Please visit a specific course for more details </p>
+
+
+
+<h3> <%= link_to 'First Year Courses', nil %> </h3>
+<table width = "1000">
+	<% @j = @c1F.size > @c1S.size ? @c1F.size : @c1S.size %>
+	<% @i = 0 %>
+	<% while @i < @j %>	 
+  <tr> 	
+    	<td style="width: 500px;">
+    	<% if @c1F[@i] %>
+    		<%= link_to @c1F[@i].courseCode, @c1F[@i] %> : <%= @c1F[@i].title %>
+   		<%	end %>
+   		</td>
+   	
+   		<td style="width: 500px;">
+   		<% if @c1S[@i] %>
+   			<%= link_to @c1S[@i].courseCode, @c1S[@i] %> : <%= @c1S[@i].title %>
+   		<% end %>	
+  		</td>
+	<% @i +=1 %>
+  </tr>
+  <% end %>
+</table>
+
+
+<h3> <%= link_to 'Second Year Courses', nil %> </h3>
+<table width = "1000">
+	<% @j = @c2F.size > @c2S.size ? @c2F.size : @c2S.size %>
+	<% @i = 0 %>
+	<% while @i < @j %>	 
+  <tr> 	
+    	<td style="width: 500px;">
+    	<% if @c2F[@i] %>
+    		<%= link_to @c2F[@i].courseCode, @c2F[@i] %> : <%= @c2F[@i].title %>
+   		<%	end %>
+   		</td>
+   	
+   		<td style="width: 500px;">
+   		<% if @c2S[@i] %>
+   			<%= link_to @c2S[@i].courseCode, @c2S[@i] %> : <%= @c2S[@i].title %>
+   		<% end %>	
+  		</td>
+	<% @i +=1 %>
+  </tr>
+  <% end %>
+</table>
+
+<% for i in 0..6 %>
+	<h3><%= "Area #{i+1}" %></h3>
+	<table>
+	<% (@cUF[i].size > @cUS[i].size ? @cUF[i].size : @cUS[i].size).times do |r| %>
+		<tr>	
+			<% if @cUF[i][r] %>
+				<td style="width: 500px;"><%= link_to @cUF[i][r].courseCode, @cUF[i][r] %> : <%= @cUF[i][r].title %> </td>
+			<% end %>
+			<% if @cUS[i][r] %>
+				<td style="width: 500px;"><%= link_to @cUS[i][r].courseCode, @cUS[i][r] %> : <%= @cUS[i][r].title %> </td>
+			<% end %>
+		</tr>
+	<% end %>
+	</table> 
+<%end %>		
+
+

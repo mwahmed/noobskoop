@@ -1,0 +1,23 @@
+<h1>Listing allcourses</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @allcourses.each do |allcourse| %>
+  <tr>
+    <td><%= allcourse.name %></td>
+    <td><%= link_to 'Show', allcourse %></td>
+    <td><%= link_to 'Edit', edit_allcourse_path(allcourse) %></td>
+    <td><%= link_to 'Destroy', allcourse, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Allcourse', new_allcourse_path %>
